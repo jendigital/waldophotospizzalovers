@@ -1,4 +1,4 @@
-$dark-gold:         #FFD700;
+$gold:              #F4C57D;
 $dark-red:          #8A0707;
 $screen-md-min:     992px;
 
@@ -6,12 +6,17 @@ $screen-md-min:     992px;
     display: flex;
     justify-content: center;
     background-color: $dark-red;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 100px;
+    align-items: center;
 
     h3 {
         margin-right: 10px;
 
         a.gold {
-            color: $dark-gold;
+            color: $gold;
         }
 
         a {

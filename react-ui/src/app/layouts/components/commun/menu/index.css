@@ -1,14 +1,18 @@
 #header {
   text-align: center; }
-  #header img {
+  #header .logo {
     width: 300px; }
   #header #title {
-    color: white;
     background-color: #8A0707;
     height: 150px;
     display: flex;
     justify-content: center;
     align-items: center; }
+    #header #title a {
+      color: white; }
+    #header #title h3, #header #title h4 {
+      margin-bottom: 0; }
     #header #title h4 {
       position: relative;
-      top: 20px; }
+      top: -5px;
+      right: -150px; }

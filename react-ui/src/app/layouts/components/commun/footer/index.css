@@ -1,11 +1,16 @@
 #footer {
   display: flex;
   justify-content: center;
-  background-color: #8A0707; }
+  background-color: #8A0707;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  height: 100px;
+  align-items: center; }
   #footer h3 {
     margin-right: 10px; }
     #footer h3 a.gold {
-      color: #FFD700; }
+      color: #F4C57D; }
     #footer h3 a {
       color: white; }
     #footer h3:last-child {

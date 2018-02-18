@@ -1,0 +1,10 @@
+.addToCart {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 30px; }
+  .addToCart span {
+    margin-right: 10px;
+    margin-left: 10px; }
+  .addToCart img {
+    width: 30px;
+    height: 30px; }

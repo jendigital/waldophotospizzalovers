@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import MainLayout from '../../layouts/default';
+import Quantity from '../../shared/components/addtocart';
 
 import './index.css';
 
@@ -20,23 +21,25 @@ export default class Menu extends Component {
                         <div className='pizzas'>
                             <div className='pizzas-line'>
                                 <div className='pizza'>
-                                    <img alt='marguerita' src='https://storage.googleapis.com/waldophotospizzalovers/marguerita.jpg' />
+                                    <img className='picture' alt='marguerita' src='https://storage.googleapis.com/waldophotospizzalovers/marguerita.jpg' />
                                     <h3>MARGUERITA</h3>
-                                    <p>tomatoe, ementhal cheese, olive,</p>
-                                    <p>origan</p>
+                                    <p>tomatoe, ementhal cheese, </p>
+                                    <p>olive, origan</p>
+                                    <Quantity step='menu' number='0' />
                                 </div>
                                 <div className='pizza'>
-                                    <img alt='calzone' src='https://storage.googleapis.com/waldophotospizzalovers/calzone.jpg' />
+                                    <img className='picture' alt='calzone' src='https://storage.googleapis.com/waldophotospizzalovers/calzone.jpg' />
                                     <h3>CALZONE</h3>
                                     <p>
-                                        tomatoe, ementhal cheese, ham,
+                                        tomatoe, ementhal cheese,
                                     </p>
                                     <p>
-                                        sunny side egg, origan
+                                        ham, sunny side egg, origan
                                     </p>
+                                    <Quantity step='menu' number='0' />
                                 </div>
                                 <div className='pizza'>
-                                    <img alt='vegetarian' src='https://storage.googleapis.com/waldophotospizzalovers/vegetarian.jpeg' />
+                                    <img className='picture' alt='vegetarian' src='https://storage.googleapis.com/waldophotospizzalovers/vegetarian.jpeg' />
                                     <h3>VEGETARIAN</h3>
                                     <p>
                                         tomatoe, ementhal cheese, pepper,
@@ -44,37 +47,40 @@ export default class Menu extends Component {
                                     <p>
                                         muchroom, olive, origan
                                     </p>
+                                    <Quantity step='menu' number='0' />
                                 </div>
                             </div>
                             <div className='pizzas-line'>
                                 <div className='pizza'>
-                                    <img alt='reine' src='https://storage.googleapis.com/waldophotospizzalovers/reine.jpg' />
+                                    <img className='picture' alt='reine' src='https://storage.googleapis.com/waldophotospizzalovers/reine.jpg' />
                                     <h3>REINE (QUEEN)</h3>
                                     <p>
-                                        tomatoe, ementhal cheese, ham,
+                                        tomatoe, ementhal cheese, 
                                     </p>
                                     <p>
-                                        mushroom, origan
+                                        ham, mushroom, origan
                                     </p>
+                                    <Quantity step='menu' number='0' />
                                 </div>
                                 <div className='pizza'>
-                                    <img alt='oriental' src='https://storage.googleapis.com/waldophotospizzalovers/orientale.jpeg' />
+                                    <img className='picture' alt='oriental' src='https://storage.googleapis.com/waldophotospizzalovers/orientale.jpeg' />
                                     <h3>ORIENTAL</h3>
                                     <p>
-                                        tomatoe, ementhal cheese, spicy 
+                                        tomatoe, ementhal cheese,
                                     </p>
                                     <p>
-                                        sausage, pepper, sunny side
+                                        spicy sausage, pepper,
                                     </p>
                                     <p>
-                                        egg, origan
+                                        sunny side egg, origan
                                     </p>
+                                    <Quantity step='menu' number='0' />
                                 </div>
                                 <div className='pizza'>
-                                    <img alt='american' src='https://storage.googleapis.com/waldophotospizzalovers/american.jpg' />
+                                    <img className='picture' alt='american' src='https://storage.googleapis.com/waldophotospizzalovers/american.jpg' />
                                     <h3>AMERICAN</h3>
                                     <p>
-                                        tomatoe, ementhal cheese, 
+                                        tomatoe, ementhal cheese,
                                     </p>
                                     <p>
                                         ground meat, fried potatoes,
@@ -82,11 +88,12 @@ export default class Menu extends Component {
                                     <p>
                                         over easy egg, bacon
                                     </p>
+                                    <Quantity step='menu' number='0' />
                                 </div>
                             </div>
                             <div className='pizzas-line'>
                                 <div className='pizza'>
-                                    <img alt='seatime' src='https://storage.googleapis.com/waldophotospizzalovers/seatime.jpg' />
+                                    <img className='picture' alt='seatime' src='https://storage.googleapis.com/waldophotospizzalovers/seatime.jpg' />
                                     <h3>SEATIME</h3>
                                     <p>
                                         tomatoe, ementhal cheese, tuna,
@@ -94,9 +101,10 @@ export default class Menu extends Component {
                                     <p>
                                         pepper, sunny side egg, origan
                                     </p>
+                                    <Quantity step='menu' number='0' />
                                 </div>
                                 <div className='pizza'>
-                                    <img alt='cannibal' src='https://storage.googleapis.com/waldophotospizzalovers/cannibal.png' />
+                                    <img className='picture' alt='cannibal' src='https://storage.googleapis.com/waldophotospizzalovers/cannibal.png' />
                                     <h3>CANNIBAL</h3>
                                     <p>
                                         tomatoe, ementhal cheese, spicy 
@@ -107,16 +115,18 @@ export default class Menu extends Component {
                                     <p>
                                         chicken, sunny side egg, origan
                                     </p>
+                                    <Quantity step='menu' number='0' />
                                 </div>
                                 <div className='pizza'>
-                                    <img alt='fourcheese' src='https://storage.googleapis.com/waldophotospizzalovers/fourcheese.jpg' />
+                                    <img className='picture' alt='fourcheese' src='https://storage.googleapis.com/waldophotospizzalovers/fourcheese.jpg' />
                                     <h3>4 CHEESE</h3>
                                     <p>
                                         ementhal, mozarella, cheddar,
                                     </p>
                                     <p>
-                                        goat cheese 
+                                        goat cheese
                                     </p>
+                                    <Quantity step='menu' number='0' />
                                 </div>
                             </div>
                         </div>
