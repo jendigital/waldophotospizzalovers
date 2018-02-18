@@ -1,0 +1,14 @@
+#header {
+  text-align: center; }
+  #header img {
+    width: 300px; }
+  #header #title {
+    color: white;
+    background-color: #8A0707;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    #header #title h4 {
+      position: relative;
+      top: 20px; }

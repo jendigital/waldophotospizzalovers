@@ -1,0 +1,25 @@
+$dark-gold:         #FFD700;
+$dark-red:          #8A0707;
+$screen-md-min:     992px;
+
+#footer {
+    display: flex;
+    justify-content: center;
+    background-color: $dark-red;
+
+    h3 {
+        margin-right: 10px;
+
+        a.gold {
+            color: $dark-gold;
+        }
+
+        a {
+            color: white;
+        }
+        
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}

@@ -1,0 +1,12 @@
+#footer {
+  display: flex;
+  justify-content: center;
+  background-color: #8A0707; }
+  #footer h3 {
+    margin-right: 10px; }
+    #footer h3 a.gold {
+      color: #FFD700; }
+    #footer h3 a {
+      color: white; }
+    #footer h3:last-child {
+      margin-right: 0; }

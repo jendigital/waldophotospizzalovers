@@ -1,0 +1,35 @@
+$screen-sm-min:     768px;
+$gold:         #F4C57D;
+
+$beige:        #f5f5dc;
+$light-grey:   #E7E7E7;
+
+#menu {
+    text-align: center;
+
+    h3 {
+        color: $gold;
+        margin-bottom: 40px;
+    }
+
+    .pizzas {
+        
+        img {
+            width: 250px;
+            height: 200px;
+        }
+
+        .pizzas-line {
+            display: flex;
+            justify-content: center;
+
+            .pizza {
+                margin-right: 100px;
+
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+}

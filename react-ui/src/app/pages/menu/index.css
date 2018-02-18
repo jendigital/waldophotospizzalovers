@@ -1,0 +1,15 @@
+#menu {
+  text-align: center; }
+  #menu h3 {
+    color: #F4C57D;
+    margin-bottom: 40px; }
+  #menu .pizzas img {
+    width: 250px;
+    height: 200px; }
+  #menu .pizzas .pizzas-line {
+    display: flex;
+    justify-content: center; }
+    #menu .pizzas .pizzas-line .pizza {
+      margin-right: 100px; }
+      #menu .pizzas .pizzas-line .pizza:last-child {
+        margin-right: 0; }

@@ -1,0 +1,25 @@
+$dark-gold:         #FFD700;
+$dark-red:          #8A0707;
+$screen-md-min:     992px;
+
+#header {
+    text-align: center;
+
+    img {
+        width: 300px;
+    }
+
+    #title {
+        color: white;
+        background-color: $dark-red;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        h4 {
+            position: relative;
+            top: 20px;
+        }
+    }
+}
