@@ -1,7 +1,28 @@
 $screen-sm-min:     768px;
-$gold:         #F4C57D;
-$light-grey:   #E7E7E7;
+$gold:            #F4C57D;
+$dark-red:        #8A0707;
 
 #confirmation {
+    text-align: center;
 
+    h2 {
+        color: $dark-red;
+    }
+
+    h3 {
+        margin-bottom: 30px;
+        
+        span {
+            color: $gold;
+        }
+    }
+
+    h4 {
+        width: 150px;
+        padding-bottom: 5px;
+        border-bottom : 3px solid black;
+        margin-bottom: 25px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
