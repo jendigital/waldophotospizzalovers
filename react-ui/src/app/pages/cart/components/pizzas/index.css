@@ -1,0 +1,10 @@
+#pizzas .pizza {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px; }
+  #pizzas .pizza .picture img {
+    width: 250px;
+    height: 200px;
+    margin-right: 20px; }
+  #pizzas .pizza .details {
+    padding-top: 20px; }
